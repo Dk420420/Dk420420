@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login.html</title>
+</head>
+
+<style>
+
+body
+{
+
+    width: 390px;
+    height: 844px;
+
+    margin: 0;
+    overflow: hidden;
+
+    border-radius: 80px;
+    background: linear-gradient(180deg, #FFF 0%, #1C6289 49.99%, #1A6088 50%, #FFF 100%);
+
+}
+
+html{
+
+    width: 390px;
+    height: 844px;
+
+    margin: 0;
+    overflow: hidden;
+
+    border-radius: 80px;
+    background: linear-gradient(180deg, #FFF 0%, #1C6289 49.99%, #1A6088 50%, #FFF 100%);
+
+}
+
+.D
+{
+
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0; 
+
+    position: fixed;
+    top: 150px;
+    left: 135px;
+    
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+}
+
+.S
+{
+
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+
+    position: fixed;
+    top: 200px;
+    left: 180px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.Username
+{
+
+    background-clip: content-box;
+    width: 257px;
+    height: 41px;
+    flex-shrink: 0;
+
+    position: fixed;
+    left: 71.5px;
+    top: 350px;
+
+    border-radius: 30px;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.Password
+{
+
+    width: 257px;
+    height: 41px;
+    flex-shrink: 0;
+
+    position: fixed;
+    left: 71.5px;
+    top: 415px;
+
+    border-radius: 30px;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.Go
+{
+
+    width: 142px;
+    height: 41px;
+    flex-shrink: 0;
+
+    position: fixed;
+    left: 80.5px;
+    top: 435px;
+
+    border-radius: 30px;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+</style>
+
+<body>
+
+    <div class="D">
+    <svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108" fill="none">
+        <g filter="url(#filter0_d_3_8)">
+        <rect x="4" width="12.3348" height="99.866" fill="#D9D9D9"/>
+        <rect x="91.6653" y="28.7114" width="12.3348" height="42.443" fill="#D9D9D9"/>
+        <rect x="4" y="11.651" width="11.651" height="67.8414" transform="rotate(-90 4 11.651)" fill="#D9D9D9"/>
+        <rect x="4" y="99.866" width="11.651" height="67.8414" transform="rotate(-90 4 99.866)" fill="#D9D9D9"/>
+        <rect width="11.9821" height="42.9051" transform="matrix(0.711049 -0.703143 0.742468 0.669881 63.4714 8.42517)" fill="#D9D9D9"/>
+        <rect width="11.9822" height="42.905" transform="matrix(0.711086 0.703105 -0.742433 0.66992 95.3252 62.8325)" fill="#D9D9D9"/>
+        </g>
+        <defs>
+        <filter id="filter0_d_3_8" x="0" y="0" width="108" height="108" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+        <feOffset dy="4"/>
+        <feGaussianBlur stdDeviation="2"/>
+        <feComposite in2="hardAlpha" operator="out"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_8"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_8" result="shape"/>
+        </filter>
+        </defs>
+        </svg>
+    </div>
+
+    <div class="S">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108" fill="none">
+            <g filter="url(#filter0_d_3_15)">
+            <rect x="24.0847" y="13.7169" width="13.7168" height="58.4283" transform="rotate(-90 24.0847 13.7169)" fill="#419174"/>
+            <rect x="7.19531" y="100" width="13.7168" height="59.3413" transform="rotate(-90 7.19531 100)" fill="#419174"/>
+            <rect x="41.4309" y="61.9468" width="13.2743" height="53.4071" transform="rotate(-90 41.4309 61.9468)" fill="#419174"/>
+            <rect width="13.2107" height="28.5301" transform="matrix(-0.66895 -0.743307 0.70084 -0.713318 12.8372 30.1707)" fill="#419174"/>
+            <rect width="13.1732" height="56.2791" transform="matrix(-0.702587 0.711598 -0.667136 -0.744936 50.8396 52.8304)" fill="#419174"/>
+            <rect width="13.1731" height="56.2793" transform="matrix(-0.702626 -0.71156 0.667096 -0.744972 66.4565 99.8436)" fill="#419174"/>
+            </g>
+            <defs>
+            <filter id="filter0_d_3_15" x="-0.000244141" y="6.10352e-05" width="108" height="108" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_15"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_15" result="shape"/>
+            </filter>
+            </defs>
+            </svg>            
+
+    </div>
+    
+
+    <div class="Username">
+
+        
+
+    </div>
+
+    <div class="Password">
+
+
+
+    </div>
+
+    <div class="Go">
+    
+        
+
+    </div>
+
+</body>
+</html>
